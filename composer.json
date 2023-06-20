@@ -3,7 +3,7 @@
     "description": "Elightwalk resolved OpenSearch SSL verification issue with help of this module.",
     "require": {
       "php": "~7.4|^8.1",
-      "elightwalk/magento2_core": "1.*"
+      "elightwalk/magento2-core": "1.*"
     },
     "type": "magento2-module",
     "version": "1.0.0",
