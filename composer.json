@@ -1,0 +1,39 @@
+{
+    "name": "elightwalk/magento2-opensearch",
+    "description": "Elightwalk resolved OpenSearch SSL verification issue with help of this module.",
+    "require": {
+      "php": "~7.4|^8.1",
+      "elightwalk/magento2_core": "1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "keywords": [
+      "opensearch",
+      "magento2 opensearch",
+      "maegnto 2 opensearch",
+      "maegnto 2 open search",
+      "elightwalk opensearch",
+      "elightwalk open search",
+      "elightwalk magento module",
+      "elightwalk magento extension"
+    ],
+    "license": [
+      "GPL-3.0"
+    ],
+    "authors": [
+      {
+        "name": "Elightwalk",
+        "email": "hello@elightwalk.com",
+        "homepage": "https://www.elightwalk.com/",
+        "role": "Product"
+      }
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Elightwalk\\OpenSearch\\": ""
+      }
+    }
+}
